@@ -33,6 +33,20 @@ h2 {
   display: flex;
 }
 
+.card-cont {
+  margin: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .row {
+    display: inline-block;
+    width: 90%;
+  }
+  .page-break {
+    display: none;
+  }
+}
+
 /* Take a Number ----------------------*/
 
 .take-num-cont {
@@ -53,6 +67,17 @@ h2 {
     cursor: pointer;
 }
 
+@media screen and (max-width: 600px) {
+  .take-num-cont {
+    width: 100%;
+    text-align: center;
+  }
+  .number-cont {
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+  }
+}
 
 /* In Session -----------------------------------*/
 
@@ -72,6 +97,18 @@ h2 {
     padding: 20px;
     margin: auto;
     cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .in-session-cont {
+    width: 100%;
+    text-align: center;
+  }
+  .session-cont {
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+  }
 }
 
 /* Session Ended --------------------*/
@@ -94,6 +131,18 @@ h2 {
     cursor: pointer;
 }
 
+@media screen and (max-width: 600px) {
+  .session-ended-cont {
+    width: 100%;
+    text-align: center;
+  }
+  .ended-cont {
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+  }
+}
+
 /* Current Line -----------------------*/
 
 .current-line-cont {
@@ -114,6 +163,17 @@ h2 {
     cursor: pointer;
 }
 
+@media screen and (max-width: 600px) {
+  .current-line-cont {
+    width: 100%;
+    text-align: center;
+  }
+  .current-cont {
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+  }
+}
 
 /* SIGN-OFF --------------------------------------------*/
 
